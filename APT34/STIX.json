@@ -1,0 +1,140 @@
+{
+  "id": "bundle--3aca02cb-faca-440b-96fd-4ff698bb78ef",
+  "objects": [
+    {
+      "created": "2023-09-07T11:54:10.782Z",
+      "created_by_ref": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "description": "A new phishing campaign has been observed by a threat actor who has released a variant of the SideTwist Trojan, which spreads through malicious macro-code stored in base64 format. SideTwist Trojan has the capability of communicating with command and control (C&C) server, executing commands or program files issued by the (C&C) terminal, and uploading local files to the (C&C) server.",
+      "id": "report--3aca02cb-faca-440b-96fd-4ff698bb78ef",
+      "labels": [
+        "threat-report"
+      ],
+      "modified": "2023-10-07T11:01:45.836Z",
+      "name": "SideTwist Trojan",
+      "object_refs": [
+        "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+        "indicator--2988a790-0480-49ea-8767-3f3bf6a2dd97",
+        "indicator--9194294b-4bec-4eca-b2d4-3d3c9ebbfc3d",
+        "indicator--fad685bf-01b9-4988-bff4-fd5b23ac5213",
+        "indicator--42009633-c1d3-4c7a-a693-ada9bf23907e",
+        "indicator--058adcc9-7199-48a9-9dfe-903d836ce1d5",
+        "indicator--297a2a24-8c81-4e9f-8956-9f186898444e",
+        "indicator--a20e179b-e05c-48fa-84a9-db22fbb7733a"
+      ],
+      "published": "2023-09-07T11:54:10.782Z",
+      "spec_version": "2.1",
+      "type": "report"
+    },
+    {
+      "contact_information": "https://otx.alienvault.com/",
+      "created": "2023-09-07T11:54:10.782Z",
+      "id": "identity--ab072f15-9b87-4ee1-898f-b584d41f29b0",
+      "identity_class": "organization",
+      "modified": "2023-09-07T11:54:10.782Z",
+      "name": "Open Threat Exchange",
+      "spec_version": "2.1",
+      "type": "identity"
+    },
+    {
+      "created": "2023-09-07T11:54:11.000Z",
+      "description": "",
+      "id": "indicator--2988a790-0480-49ea-8767-3f3bf6a2dd97",
+      "labels": [],
+      "modified": "2023-09-07T11:54:11.000Z",
+      "name": "OTX pulse_name=SideTwist Trojan",
+      "pattern": "[file:hashes.MD5 = '056378877c488af7894c8f6559550708']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2023-09-07T11:54:11.000Z"
+    },
+    {
+      "created": "2023-09-07T11:54:11.000Z",
+      "description": "",
+      "id": "indicator--9194294b-4bec-4eca-b2d4-3d3c9ebbfc3d",
+      "labels": [],
+      "modified": "2023-09-07T11:54:11.000Z",
+      "name": "OTX pulse_name=SideTwist Trojan",
+      "pattern": "[file:hashes.MD5 = '5e0b8bf38ad0d8c91310c7d6d8d7ad64']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2023-09-07T11:54:11.000Z"
+    },
+    {
+      "created": "2023-09-07T11:54:11.000Z",
+      "description": "",
+      "id": "indicator--fad685bf-01b9-4988-bff4-fd5b23ac5213",
+      "labels": [],
+      "modified": "2023-09-07T11:54:11.000Z",
+      "name": "OTX pulse_name=SideTwist Trojan",
+      "pattern": "[file:hashes.'SHA-1' = '729a2e6ab9135657c7219435c92351ca1c8a4d93']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2023-09-07T11:54:11.000Z"
+    },
+    {
+      "created": "2023-09-07T11:54:11.000Z",
+      "description": "",
+      "id": "indicator--42009633-c1d3-4c7a-a693-ada9bf23907e",
+      "labels": [],
+      "modified": "2023-09-07T11:54:11.000Z",
+      "name": "OTX pulse_name=SideTwist Trojan",
+      "pattern": "[file:hashes.'SHA-1' = 'eb3a3fa719328e662d573774181cbd0bc1be1920']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2023-09-07T11:54:11.000Z"
+    },
+    {
+      "created": "2023-09-07T11:54:11.000Z",
+      "description": "",
+      "id": "indicator--058adcc9-7199-48a9-9dfe-903d836ce1d5",
+      "labels": [],
+      "modified": "2023-09-07T11:54:11.000Z",
+      "name": "OTX pulse_name=SideTwist Trojan",
+      "pattern": "[file:hashes.'SHA-256' = '7b83ca04240ca8769eb0f01a873674aa2891a4aa702d5cf632e7ecc284c38bc9']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2023-09-07T11:54:11.000Z"
+    },
+    {
+      "created": "2023-09-07T11:54:11.000Z",
+      "description": "",
+      "id": "indicator--297a2a24-8c81-4e9f-8956-9f186898444e",
+      "labels": [],
+      "modified": "2023-09-07T11:54:11.000Z",
+      "name": "OTX pulse_name=SideTwist Trojan",
+      "pattern": "[file:hashes.'SHA-256' = 'c2a0d899dd535d7cf0729b3307d054780985e0cebd21cca5614c1417225c86ee']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2023-09-07T11:54:11.000Z"
+    },
+    {
+      "created": "2023-09-07T11:54:11.000Z",
+      "description": "",
+      "id": "indicator--a20e179b-e05c-48fa-84a9-db22fbb7733a",
+      "labels": [],
+      "modified": "2023-09-07T11:54:11.000Z",
+      "name": "OTX pulse_name=SideTwist Trojan",
+      "pattern": "[file:hashes.'SHA-256' = '2fe919294cdb3baf51bc0cc199dd9e4980b4a0cc0c8884f60a0242f93cb35825']",
+      "pattern_type": "stix",
+      "pattern_version": "2.1",
+      "spec_version": "2.1",
+      "type": "indicator",
+      "valid_from": "2023-09-07T11:54:11.000Z"
+    }
+  ],
+  "spec_version": "2.1",
+  "type": "bundle"
+}
+
